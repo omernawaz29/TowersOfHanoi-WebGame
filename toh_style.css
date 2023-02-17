@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(44, 47, 71);
+}
+
+#page {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    align-content: center;
+}
+
+#title {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    color: #00eeff;
+    font-family: Audiowide;
+}
+
+.moves{
+
+    text-align: center;
+    font-size: 23px;
+    color: #00ccff;
+    font-family: Audiowide;
+}
+
+#towers {
+    color: #ffc6c6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.base {
+    position: relative;
+    width: 180px;
+    height: 200px;
+    margin: auto;
+    border-bottom: 9px #ffd586 solid;
+    border-radius: 20px;
+}
+
+.line1,
+.line2,
+.line3{
+    padding: 2px;
+    width: 5px;
+    height: 150px;
+    background: #ffd586;
+    border-radius: 180px;
+    padding-top: 50px;
+    margin: 10px 0 0 65px;
+    position: relative;
+    align-items: center;
+}
+
+#towers li {
+    position: relative;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    top: 170px;
+}
+
+#disc7 {
+    background-color: #8300ff;
+    width: 175px;
+    margin: -40px 0 0 -86px;
+}
+
+#disc6 {
+    background-color: #ef3a3a;
+    width: 150px;
+    margin: -40px 0 0 -73px;
+}
+
+#disc5 {
+    background-color: #4b64f0;
+    width: 125px;
+    margin: -40px 0 0 -58px;
+}
+
+#disc4 {
+    background-color: #00aeff;
+    width: 100px;
+    margin: -40px 0 0 -46px;
+}
+
+#disc3 {
+    background-color: #42db5b;
+    width: 75px;
+    margin: -40px 0 0 -34px;
+}
+
+#disc2 {
+    background-color: #efec41;
+    width: 50px;
+    margin: -40px 0 0 -22px;
+}
+
+#disc1 {
+    background-color: #ee2dbe;
+    width: 25px;
+    margin: -40px 0 0 -10px;
+}
+
+.buttons-container{
+    display: flex;
+    margin: auto;
+}
+
+.buttons {
+    font-family: Audiowide;
+    font-size: 12px;
+    text-transform: uppercase;
+    height: 50px;
+    width: 90px;
+    border-radius: 15px;
+    background-color: #00b7ff;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+#discno {
+    font-family: Audiowide;
+    font-size: 20px;
+    color: #00b7ff;
+    margin: auto;
+}
+
+#timer {
+    font-family: Audiowide;
+    font-size: 20px;
+    color: #ffffff;
+    margin: auto;
+}
+
+#box {
+    font-size: 11px;
+    text-align: center;
+    height: 20px;
+    width: 50px;
+    font-family: Audiowide;
+}
+
+#restart {
+    margin: auto;
+}
+
+.buttons:hover{
+    opacity: 1;
+}
